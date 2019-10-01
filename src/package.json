@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "preact-x-preact-cli-3-starter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run -s build && npm run -s serve",
+    "build": "preact build",
+    "serve": "sirv build -s -q -p $PORT",
+    "dev": "preact watch",
+    "lint": "eslint src",
+    "test": "jest ./tests"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-developit"
+  },
+  "devDependencies": {
+    "eslint-config-developit": "^1.1.1",
+    "eslint": "^4.5.0",
+    "node-sass": "^4.5.3",
+    "preact-cli": "^3.0.0-rc.5",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "preact": "10.0.0",
+    "preact-router": "3.0.1"
+  },
+  "keywords": [],
+  "description": ""
+}

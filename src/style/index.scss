@@ -1,0 +1,26 @@
+/**
+ *  The "style" folder contains global styles.
+ */
+
+html, body {
+	background: #eee;
+	margin: 0;
+	font: 14px/1.21 system-ui, 'Helvetica Neue', arial, sans-serif;
+}
+
+.route {
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.demo {
+	display: inline-block;
+	padding: 10px;
+	border: 1px dotted #888;
+	h4 {
+		margin: 0;
+		color: #888;
+	}
+}
