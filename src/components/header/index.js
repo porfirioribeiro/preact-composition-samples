@@ -8,7 +8,7 @@ export default function Header() {
 			<h2>Demo</h2>
 			<nav>
 				<a href="/">Home</a>
-				<a href="/missing">Missing</a>
+				<a href="/02">counter (custom composition)</a>
 			</nav>
 		</header>
 	);

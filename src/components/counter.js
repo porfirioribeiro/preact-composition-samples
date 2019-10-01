@@ -1,13 +1,15 @@
-import { useState } from 'preact/hooks';
+import { createComponent, ref } from '../composition';
 
-export default function Counter() {
-	const [count, setCount] = useState(0);
-	const inc = () => setCount(count + 1);
+export default createComponent(() => {
+	const count = ref(0);
+	function inc() {
+		count.value++;
+	}
 
-	return (
+	return () => (
 		<div>
-			<p>Count: {count}</p>
+			<p>Count: {count.value}</p>
 			<button onClick={inc}>Increment</button>
 		</div>
 	);
-}
+});
