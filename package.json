@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "preact-x-preact-cli-3-starter",
+  "name": "preact-composition-samples",
   "version": "0.0.6",
   "license": "MIT",
   "main": "src/index.js",
