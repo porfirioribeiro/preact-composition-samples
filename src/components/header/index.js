@@ -9,7 +9,8 @@ export default function Header() {
 			<nav>
 				<a href="/">Home</a>
 				<a href="/02">counter (custom composition)</a>
-				<a href="/03">presistemt state</a>
+				<a href="/03">presistent state</a>
+				<a href="/05">imperative api</a>
 			</nav>
 		</header>
 	);
