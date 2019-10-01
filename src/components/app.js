@@ -3,6 +3,7 @@ import Home from '../routes/index';
 import NotFound from '../routes/_404';
 import Header from './header';
 import Demo02 from '../routes/02';
+import Demo03 from '../routes/03';
 
 export default function App() {
 	return (
@@ -11,6 +12,7 @@ export default function App() {
 			<Router>
 				<Home path="/" />
 				<Demo02 path="/02" />
+				<Demo03 path="/03" />
 				<NotFound default />
 			</Router>
 		</div>
